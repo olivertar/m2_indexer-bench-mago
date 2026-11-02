@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Orangecat. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Orangecat_IndexerBenchMago">
+        <sequence>
+            <module name="Orangecat_IndexerBench"/>
+            <module name="MagoAssistant_Mago"/>
+        </sequence>
+    </module>
+</config>

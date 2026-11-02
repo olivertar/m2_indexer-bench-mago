@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Orangecat. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="MagoAssistant_Mago::assistant">
+                    <resource id="Orangecat_IndexerBenchMago::view" title="View Indexer Benchmarks" sortOrder="210"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
